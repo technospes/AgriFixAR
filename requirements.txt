@@ -1,0 +1,7 @@
+flask
+werkzeug
+ultralytics
+openai-whisper
+opencv-python-headless
+google-generativeai
+python-dotenv

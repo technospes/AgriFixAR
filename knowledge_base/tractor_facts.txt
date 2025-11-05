@@ -1,0 +1,90 @@
+--- Tractor Facts ---
+- Model: A & B
+- Power: Diesel engine, manual transmission.
+- Battery: 12V, located under the driver’s seat or under the hood.
+- Battery Terminals: Prone to white/green corrosion.
+- Common Problem: Tractor won’t start, makes a “clicking” sound, or cranks slowly.
+- Possible Cause: Weak battery, corroded terminals, or loose ground cable.
+- Check: Clean terminals and ensure tight connections; charge or replace battery if needed.
+
+- Starter Motor:
+- Common Problem: Turning key produces no crank or very slow crank.
+- Possible Cause: Faulty solenoid, worn brushes, or weak battery supply.
+- Check: Tap starter gently, check for proper voltage supply at terminals.
+
+- Alternator / Charging System:
+- Common Problem: Battery keeps draining even after replacement.
+- Possible Cause: Alternator belt is loose or alternator not charging.
+- Check: Inspect belt tension, use a multimeter — should read 13.8–14.4V when running.
+
+- Clutch: Linkage-based, mechanical.
+- Location: Under the tractor, left side, behind the pedal.
+- Adjustment: Performed with a 'lock nut' (13mm, back) and an 'adjusting nut' (front) on the linkage rod.
+- Specification: Correct free play should be 20–30mm.
+- Common Problem: Grinding gears, “slipping” (engine revs but tractor doesn’t move), or “stuck” pedal.
+- Possible Cause: Incorrect free play, worn clutch plate, or broken return spring.
+- Check: Adjust linkage; replace clutch disc if slipping persists.
+
+- Transmission / Gearbox:
+- Common Problem: Hard shifting or grinding when changing gears.
+- Possible Cause: Clutch not disengaging fully, low transmission oil, or worn synchronizers.
+- Check: Verify clutch adjustment, inspect oil level, and ensure oil is clean (not milky or dark).
+
+- Cooling System: Water-cooled with radiator and fan.
+- Common Problem: Engine overheating, black smoke, or “hot” smell.
+- Possible Cause: Low coolant level, clogged radiator fins, or faulty fan belt.
+- Check: Clean radiator fins, check coolant level and belt condition.
+
+- Fuel System: Diesel injection with fuel filter and separator bowl.
+- Common Problem: Engine sputters, loses power, or stops under load.
+- Possible Cause: Clogged fuel filter, air in fuel line, or water in separator.
+- Check: Drain separator, replace fuel filter, bleed air from the system.
+
+- Air Filter:
+- Common Problem: Tractor feels weak or emits black smoke.
+- Possible Cause: Air filter clogged with dust or oil.
+- Check: Remove and clean air filter; replace if saturated.
+
+- Hydraulic System:
+- Function: Operates 3-point hitch and other implements.
+- Common Problem: Hitch will not lift, lifts slowly, or is jerky.
+- Possible Cause: Low hydraulic fluid, clogged hydraulic filter, or air trapped in system.
+- Check: Inspect fluid level (dipstick usually at rear), top up or replace with proper grade oil.
+
+- Brake System:
+- Common Problem: Brakes feel soft, uneven, or fail to stop tractor.
+- Possible Cause: Low brake fluid (in oil-type brakes), worn brake shoes, or air in brake line.
+- Check: Inspect brake fluid reservoir, bleed air, adjust pedal free play.
+
+- Steering System:
+- Type: Manual or Power steering (hydraulic assist).
+- Common Problem: Steering feels heavy, jerky, or unresponsive.
+- Possible Cause: Low power steering fluid, air in hydraulic lines, or worn steering pump.
+- Check: Top up fluid and inspect for leaks around pump or cylinder.
+
+- Tyres & Wheels:
+- Common Problem: Tractor pulls to one side or feels unstable.
+- Possible Cause: Uneven tyre pressure or worn tread.
+- Check: Inflate to recommended PSI; inspect tyres for cracks or cuts.
+
+- Electrical System:
+- Common Problem: Headlights or indicators not working.
+- Possible Cause: Blown fuse, faulty switch, or damaged wiring.
+- Check: Replace fuse, clean connectors, inspect harness for wear.
+
+- Exhaust / Emission:
+- Common Problem: Excessive black smoke or misfiring sound.
+- Possible Cause: Dirty air filter, injector malfunction, or low-quality diesel.
+- Check: Clean air intake, use good-quality fuel, service injectors if needed.
+
+- PTO (Power Take-Off):
+- Common Problem: PTO not engaging or stopping late.
+- Possible Cause: PTO clutch linkage misadjusted or worn friction plates.
+- Check: Adjust linkage or replace friction plate if slipping.
+
+- General Maintenance Tips:
+- Change engine oil every 100–150 hours of use.
+- Keep radiator clean and free from chaff.
+- Grease moving linkages weekly.
+- Check tyre pressure before fieldwork.
+- Always disengage PTO and turn off the engine before servicing.

@@ -1,0 +1,2 @@
+D:\Unity 3D\Unity Projects\AgriFixAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Unity 3D\Unity Projects\AgriFixAR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

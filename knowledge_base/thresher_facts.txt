@@ -1,0 +1,80 @@
+--- Thresher Facts ---
+- Model: T-1000
+- Function: Separates grain (like wheat, rice, maize, or pulses) from straw and husk.
+- Power Source: Typically driven by a tractor via PTO shaft or by a large belt connected to a stationary engine.
+- Main Components: Threshing Drum, Feeding Chute, Concave/Grate, Blower Fan, Sieves (Screens), Main Drive Belt, Bearings, and Frame.
+
+- Feeding System:
+- Common Problem: Machine gets clogged, rumbling noise from the drum, or sudden stoppage.
+- Possible Cause: Feeding too much crop at once, crop material too wet or green, or uneven feeding.
+- Check: Stop PTO, remove excess crop manually after engine is off, and ensure crop moisture is below 20%.
+
+- Threshing Drum:
+- Function: Separates grain from straw using rotating beaters and concave.
+- Common Problem: Excessive vibration or banging sound during operation.
+- Possible Cause: Unbalanced drum, broken beaters, or uneven crop feed.
+- Common Problem: Straw wraps around drum shaft or rollers.
+- Possible Cause: Feeding damp crop or foreign material (plastic twine, grass).
+- Check: Clean drum and shaft regularly; never feed foreign materials.
+
+- Drive Belt System:
+- Function: Transmits power from tractor PTO or engine to drum, blower, and sieves.
+- Common Problem: Drum or blower not spinning, loud squealing noise.
+- Possible Cause: Belt is loose, worn, misaligned, or broken.
+- Check: Tighten belt, replace if cracked or glazed; align pulleys.
+
+- Blower Fan:
+- Function: Blows air to separate chaff from clean grain.
+- Common Problem: Clean grain is mixed with straw, husk, or dust.
+- Possible Cause: Blower speed too low, belt slipping, or fan blades clogged.
+- Check: Adjust blower belt tension; clean fan blades and housing.
+
+- Sieves / Screens:
+- Function: Separate clean grain from larger straw pieces and debris.
+- Common Problem: Excessive grain loss (grains falling out with straw at the rear).
+- Possible Cause: Sieves set too open or clogged with material.
+- Common Problem: Clean grain contains too much chaff.
+- Possible Cause: Blower speed too low or sieves not properly leveled.
+- Check: Clean sieves after every few loads; adjust sieve openings for crop type.
+
+- Bearings & Shaft:
+- Function: Allow smooth drum and blower rotation.
+- Common Problem: Grinding noise, heat buildup, or vibration.
+- Possible Cause: Bearings dry, worn, or misaligned.
+- Check: Grease bearings every 8–10 hours of operation; replace if noisy or hot.
+
+- PTO Shaft / Power Transmission:
+- Common Problem: PTO shaft vibrates excessively or detaches.
+- Possible Cause: Shaft not properly locked or alignment off-center.
+- Check: Ensure PTO lock pins are engaged; align tractor straight with thresher.
+
+- Output Grain Quality:
+- Common Problem: Grains cracked, broken, or crushed.
+- Possible Cause: Drum speed too high or concave clearance too tight.
+- Common Problem: Unthreshed grains still in straw.
+- Possible Cause: Drum speed too low or crop feeding inconsistent.
+- Check: Adjust drum speed (RPM) and concave clearance as per crop.
+
+- Frame & Structural Issues:
+- Common Problem: Thresher shakes or vibrates excessively.
+- Possible Cause: Loose frame bolts, unbalanced drum, or worn mounts.
+- Check: Tighten all bolts before operation; balance rotating parts.
+
+- Safety Problems:
+- Common Problem: Injury risk while feeding crop or cleaning machine.
+- Safety Note: Always disengage PTO and shut off engine before clearing blockages or performing maintenance.
+- Common Problem: Sparks or heat near straw outlet.
+- Possible Cause: Metal friction or bearing overheating.
+- Check: Clean buildup regularly; stop immediately if unusual noise or smell.
+
+- Electrical / Lighting (if equipped for night operation):
+- Common Problem: Indicator lamps or work light not functioning.
+- Possible Cause: Damaged wiring or loose connections.
+- Check: Inspect connectors and ensure proper insulation.
+
+- General Maintenance Tips:
+- Always check and tighten all belts and pulleys before starting.
+- Grease bearings and lubrication points regularly.
+- Remove leftover straw, chaff, and dust after each use to prevent rust.
+- Store the machine under a shed or cover when not in use.
+- Periodically check alignment between tractor PTO and thresher shaft.

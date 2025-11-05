@@ -1,0 +1,96 @@
+--- Motor & Pump Facts ---
+- Model: K (Surface and Submersible types)
+- Power Supply: Single-phase or three-phase AC (commonly 230V/440V).
+- Starting: For small surface motors – pull cord or switch. For submersible motors – electrical starter with capacitor or DOL (Direct-On-Line) panel.
+
+- Pull Cord System: Used in small surface-type irrigation motors.
+- Function: Engages flywheel to start the engine using internal recoil spring.
+- Common Problem: Cord is jammed, stuck, or won’t pull.
+- Possible Cause: Tangled or broken recoil spring, debris around the flywheel, or damaged starter pawl.
+
+- Pump System: Centrifugal (for surface types) or Borewell (for submersible types).
+- Function: Lifts water by creating suction using impeller rotation.
+- Prime Plug: Located on top of pump housing (surface type).
+- Common Problem: Motor runs but no water comes out.
+- Possible Cause: Pump has lost prime (air pocket in system), suction pipe leak, or foot valve stuck open.
+- Check: Refill water through prime plug; check for leaks and foot valve seal.
+
+- Suction & Delivery Pipe:
+- Common Problem: Weak or no water flow even when motor is running.
+- Possible Cause: Air leakage in suction pipe joints, blocked suction strainer, or damaged delivery hose.
+
+- Foot Valve (Bottom Non-Return Valve):
+- Function: Prevents water from flowing back after motor stops.
+- Common Problem: Motor fails to lift water after several attempts.
+- Possible Cause: Foot valve stuck open or blocked with sand or leaves.
+- Check: Clean valve or replace rubber seat.
+
+- Impeller & Casing:
+- Common Problem: Water pressure is low or uneven.
+- Possible Cause: Worn or damaged impeller blades, scaling or rust inside casing.
+- Check: Inspect impeller for wear; descale and clean casing.
+
+- Air Filter (Surface Engine Motors):
+- Function: Cleans air before it enters the carburetor.
+- Common Problem: Motor starts but sputters, runs rough, or stalls.
+- Possible Cause: Air filter clogged with dust or oil; improper cleaning.
+- Check: Remove and clean filter with petrol or replace paper element.
+
+- Spark Plug (for petrol/diesel engine motors):
+- Common Problem: Engine is hard to start or doesn’t start (but pull cord works).
+- Possible Cause: Plug fouled with carbon, gap incorrect, or wire disconnected.
+- Check: Clean spark plug tip, ensure gap is 0.7–0.8mm, reconnect lead.
+
+- Electrical Motor (Submersible type):
+- Common Problem: Motor hums but doesn’t rotate.
+- Possible Cause: Faulty capacitor, jammed impeller, or low voltage.
+- Check: Test capacitor using multimeter, inspect impeller for debris.
+
+- Common Problem: Motor runs for a few seconds then trips off.
+- Possible Cause: Overload protection tripping due to high current draw or thermal overload.
+- Check: Clean impeller, ensure voltage is stable, inspect control box and overload relay.
+
+- Control Panel:
+- Components: Contactor, Overload relay, Capacitor, ON/OFF switches.
+- Common Problem: Motor won’t start even when power is on.
+- Possible Cause: Burnt contactor, faulty capacitor, or tripped overload relay.
+- Check: Reset overload, replace capacitor, inspect wiring connections.
+
+- Wiring & Electrical Supply:
+- Common Problem: Motor doesn’t start, gives shock, or trips MCB.
+- Possible Cause: Short circuit, insulation damage, or water ingress in connection box.
+- Check: Dry motor terminals, use proper earthing, replace damaged cables.
+
+- Bearings:
+- Function: Support the rotor shaft and allow smooth spinning.
+- Common Problem: Motor makes grinding or squealing noise.
+- Possible Cause: Bearings are dry or worn out.
+- Check: Lubricate bearings or replace if noisy.
+
+- Seals (Mechanical / Gland Packing):
+- Function: Prevents water leakage along the shaft.
+- Common Problem: Water leaking from near motor shaft or pump head.
+- Possible Cause: Worn mechanical seal or loose gland packing.
+- Check: Replace seal or tighten gland nut evenly.
+
+- Overheating:
+- Common Problem: Motor body becomes very hot or emits burning smell.
+- Possible Cause: Overload, blocked impeller, low voltage, or poor ventilation.
+- Check: Ensure motor runs under rated load; clean cooling fins and ventilation holes.
+
+- Noise & Vibration:
+- Common Problem: Excessive vibration or rattling sound during operation.
+- Possible Cause: Misalignment between motor and pump, loose bolts, or damaged bearings.
+- Check: Tighten all bolts, ensure motor-pump alignment, replace bearings if needed.
+
+- Rust & Corrosion (Submersible Type):
+- Common Problem: Motor efficiency drops over time or trips frequently.
+- Possible Cause: Corrosion on windings or impeller due to prolonged submersion in hard water.
+- Check: Use anti-rust coating; periodically remove and service motor.
+
+- Maintenance Tips:
+- Always ensure water level is sufficient before running a submersible motor.
+- Clean suction strainer weekly.
+- Replace capacitor every 1–2 years.
+- Never run the pump “dry” (without water) — it will damage seals and windings.
+- Ensure proper earthing for safety.
