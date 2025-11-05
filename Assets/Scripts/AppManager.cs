@@ -14,6 +14,7 @@ public class StepData
     public string text;
     public string ar_model;
 }
+
 [System.Serializable]
 public class DiagnosisResponse
 {
@@ -28,6 +29,7 @@ public class AppManager : MonoBehaviour
     public UIDocument uiDocument;
     public RawImage videoBackground;
     public VideoPlayer videoPlayer;
+
     private UnityEngine.UIElements.VisualElement progressPanel;
     private UnityEngine.UIElements.ProgressBar progressBar;
     private UnityEngine.UIElements.Label statusText;
@@ -37,6 +39,7 @@ public class AppManager : MonoBehaviour
     private UnityEngine.UIElements.Button findSolutionButton;
     private UnityEngine.UIElements.Label videoStatusText;
     private UnityEngine.UIElements.Label audioStatusText;
+
     private string videoPath;
     private string audioPath;
     private string tempAudioFileName = "temp_audio.wav";
@@ -54,7 +57,9 @@ public class AppManager : MonoBehaviour
         findSolutionButton = root.Q<UnityEngine.UIElements.Button>("find-solution-button");
         videoStatusText = root.Q<UnityEngine.UIElements.Label>("video-status-label");
         audioStatusText = root.Q<UnityEngine.UIElements.Label>("audio-status-label");
+
         progressPanel.style.display = DisplayStyle.None;
+
         selectVideoButton.clicked += OnSelectVideoButtonPressed;
         recordAudioButton.clicked += OnRecordAudioPressed;
         selectAudioButton.clicked += OnSelectAudioPressed;
@@ -72,19 +77,50 @@ public class AppManager : MonoBehaviour
         videoBackground.texture = videoPlayer.texture;
         videoPlayer.Play();
     }
+
     public void OnSelectVideoButtonPressed()
     {
-        NativeGallery.GetVideoFromGallery((path) =>
-        {
-            if (path != null)
-            {
-                videoPath = path;
-                videoStatusText.text = "Video Selected!";
-                videoStatusText.style.color = Color.green;
-                CheckIfReady();
-            }
-        }, "Select a Machine Video");
+        if (NativeGallery.IsMediaPickerBusy())
+            return;
+
+        StartCoroutine(SelectVideoOrAudio());
     }
+
+    IEnumerator SelectVideoOrAudio()
+    {
+        var permissionTask = NativeGallery.RequestPermissionAsync(
+            NativeGallery.PermissionType.Read,
+            NativeGallery.MediaType.Video | NativeGallery.MediaType.Audio
+        );
+        yield return permissionTask;
+        var permission = permissionTask.Result;
+
+        if (permission == NativeGallery.Permission.Granted)
+        {
+            NativeGallery.GetMixedMediaFromGallery((path) =>
+            {
+                if (path != null)
+                {
+                    videoPath = path;
+                    videoStatusText.text = "File Selected!";
+                    videoStatusText.style.color = Color.green;
+                    Debug.Log("Selected media path: " + path);
+                    CheckIfReady();
+                }
+                else
+                {
+                    Debug.Log("User cancelled file selection.");
+                }
+            },
+            NativeGallery.MediaType.Video | NativeGallery.MediaType.Audio,
+            "Select a video or audio file from File Manager");
+        }
+        else
+        {
+            Debug.LogWarning("Permission not granted to access media files.");
+        }
+    }
+
     public void OnRecordAudioPressed()
     {
         StartCoroutine(RecordAudio());
@@ -109,6 +145,7 @@ public class AppManager : MonoBehaviour
         selectAudioButton.SetEnabled(true);
         CheckIfReady();
     }
+
     public void OnSelectAudioPressed()
     {
         NativeGallery.GetAudioFromGallery((path) =>
@@ -122,6 +159,7 @@ public class AppManager : MonoBehaviour
             }
         }, "Select an Audio File");
     }
+
     void CheckIfReady()
     {
         if (!string.IsNullOrEmpty(videoPath) && !string.IsNullOrEmpty(audioPath))
@@ -130,6 +168,7 @@ public class AppManager : MonoBehaviour
             findSolutionButton.text = "Find Solution!";
         }
     }
+
     public void OnFindSolutionPressed()
     {
         StartCoroutine(UploadFiles(videoPath, audioPath));
@@ -141,7 +180,8 @@ public class AppManager : MonoBehaviour
         progressBar.value = 0;
         statusText.text = "Starting analysis...";
 
-        string[] statusMessages = new string[] {
+        string[] statusMessages = new string[]
+        {
             "Analyzing the problem...",
             "Detecting machine model...",
             "Problem found. Cross-referencing solutions...",
@@ -150,6 +190,7 @@ public class AppManager : MonoBehaviour
 
         float startTime = Time.time;
         float minWaitTime = 5.0f;
+
         byte[] videoData = File.ReadAllBytes(videoPath);
         byte[] audioData = File.ReadAllBytes(audioPath);
 
@@ -159,11 +200,13 @@ public class AppManager : MonoBehaviour
 
         formData.Add(new MultipartFormFileSection("video", videoData, Path.GetFileName(videoPath), "video/mp4"));
         formData.Add(new MultipartFormFileSection("audio", audioData, audioFileName, audioMimeType));
+
         using (UnityWebRequest www = UnityWebRequest.Post(backendUrl, formData))
         {
             var asyncOperation = www.SendWebRequest();
             float timer = 0f;
             int statusIndex = 0;
+
             while (timer < minWaitTime || !asyncOperation.isDone)
             {
                 timer += Time.deltaTime;
@@ -180,6 +223,7 @@ public class AppManager : MonoBehaviour
 
                 yield return null;
             }
+
             if (www.result == UnityWebRequest.Result.Success)
             {
                 statusText.text = "Solution Found!";
